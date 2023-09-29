@@ -1,5 +1,5 @@
 /*
-// Zac Bogner // Level (Game) Designer // Motorsports Enthusiast // Unreal Engine // Unity // c# // c++
+// Zac Bogner // Level (Game) Designer // Motorsports Enthusiast // Unreal Engine // c++ 
 */
 
 
@@ -25,5 +25,10 @@ void AFindPlayerActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-}
+	FVector MyPlayer = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation(); 
 
+	if (GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 3, FColor::Orange, FString::Printf(TEXT("My Player Location is: %s"), *MyPlayer.ToString())); 
+	}
+}

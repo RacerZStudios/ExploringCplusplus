@@ -1,5 +1,5 @@
 /*
-// Zac Bogner // Level (Game) Designer // Motorsports Enthusiast // Unreal Engine // Unity // c# // c++
+// Zac Bogner // Level (Game) Designer // Motorsports Enthusiast // Unreal Engine // c++
 */
 
 #define print(text) if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5f, FColor::White, text);
