@@ -1,4 +1,6 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+/*
+// Zac Bogner // Level (Game) Designer // Motorsports Enthusiast // Unreal Engine // Unity // c# // c++
+*/
 
 // include library's for reference of properties/ components
 #include "Components/StaticMeshComponent.h"
@@ -37,4 +39,3 @@ void AAddMeshFromFileActor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
